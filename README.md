@@ -1,0 +1,2 @@
+# VDeamoV_Stars
+MyStars
