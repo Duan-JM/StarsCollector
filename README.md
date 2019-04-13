@@ -133,8 +133,9 @@ Themes
 -----
 + iplaces / astro-zsh-theme
 + mbadolato / iTerm2-Color-Schemes
+
 Others
-------
+-----
 ### JobInfo
 + 996icu / 996.ICU
 + formulahendry / 955.WLB
