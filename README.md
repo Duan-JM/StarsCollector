@@ -230,5 +230,3 @@ Others
 + shengxinjing / programmer-job-blacklist
 + programthink / opensource
 + Anyway-Design / Anyway.Post
-
-    One art design posts
