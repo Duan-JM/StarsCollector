@@ -52,6 +52,9 @@
 ## Intro
 This repo is used to maintain my stars. Contain a script to automatically collect the unsorted repo to the README 
 
+## Futrue Feature
+- [ ] automatically add repo with link
+
 ## How to Use the Script
 1. Just Use the Sript
 
