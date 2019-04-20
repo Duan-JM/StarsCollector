@@ -50,18 +50,18 @@
 
 <!-- vim-markdown-toc -->
 ## Intro
-This repo is used to maintain my stars. Maybe will create tools for it.
+This repo is used to maintain my stars. Contain a script to automatically collect the unsorted repo to the README 
 
 ## How to Use the Script
 1. Just Use the Sript
 
-```python
-python3 get_stars.py -u yourname -p your_readme_path
-```
-Then it will store your unsorted Star Repo to the end of the file
+    ```python
+    python3 get_stars.py -u yourname -p your_readme_path
+    ```
+    Then it will store your unsorted Star Repo to the end of the file
 2. Sort your Repo
-- Place your unsorted repo to the right place
-- Make sure that your repo name have `+` before it.
+    - Place your unsorted repo to the right place
+    - Make sure that your repo name have `+` before it.
 
 ResearchCollection
 -----------------
