@@ -2,7 +2,7 @@
 <!-- vim-markdown-toc GFM -->
 
 * [Intro](#intro)
-* [FutureFetures](#futurefetures)
+* [How to Use the Script](#how-to-use-the-script)
 * [ResearchCollection](#researchcollection)
     * [TransferLearning](#transferlearning)
         * [Survey](#survey)
@@ -52,8 +52,16 @@
 ## Intro
 This repo is used to maintain my stars. Maybe will create tools for it.
 
-## FutureFetures
-- [ ] add tools to automaintian the list
+## How to Use the Script
+1. Just Use the Sript
+
+```python
+python3 get_stars.py -u yourname -p your_readme_path
+```
+Then it will store your unsorted Star Repo to the end of the file
+2. Sort your Repo
+- Place your unsorted repo to the right place
+- Make sure that your repo name have `+` before it.
 
 ResearchCollection
 -----------------
