@@ -2,6 +2,7 @@
 <!-- vim-markdown-toc GFM -->
 
 * [Intro](#intro)
+* [Futrue Feature](#futrue-feature)
 * [How to Use the Script](#how-to-use-the-script)
 * [ResearchCollection](#researchcollection)
   * [TransferLearning](#transferlearning)
@@ -246,7 +247,6 @@ Others
 
 RemainSorted
 -----------
-+ VDeamoV/TorchDatasetLoader
 + soimort/translate-shell
 + dmlc/gluon-cv
 + renmengye/few-shot-ssl-public
@@ -279,3 +279,48 @@ RemainSorted
 + sergeywong/cp-vton
 + ly015/intrinsic_flow
 + pedrommcarrasco/Brooklyn
++ ctgk/PRML
++ tensorflow/tensorflow
++ michamos/vim-arxivist
++ openai/mujoco-py
++ openai/multi-agent-emergence-environments
++ openai/mujoco-worldgen
++ vim-china/vimrc
++ liuchengxu/vista.vim
++ kkroening/ffmpeg-python
++ syl20bnr/spacemacs
++ hyiltiz/vim-plugins-profile
++ microsoft/cascadia-code
++ koekeishiya/yabai
++ Sophia-11/Awesome-ICCV2019
++ Duan-JM/awesome-papers-fewshot
++ istarjun/TapNet
++ LiyuanLucasLiu/RAdam
++ WenbinLee/DN4
++ khy0809/fewshot-egnn
++ vietnguyen1991/Super-mario-bros-A3C-pytorch
++ jason718/awesome-self-supervised-learning
++ BrikerMan/Kashgari
++ jofpin/trape
++ Greenwolf/social_mapper
++ voldikss/vim-translator
++ CoinCheung/pytorch-loss
++ ryanhanwu/How-To-Ask-Questions-The-Smart-Way
++ YirongMao/softmax_variants
++ jaraco/path
++ vinta/awesome-python
++ microsoft/ai-edu
++ yuzhoujr/leetcode
++ amix/vimrc
++ chiphuyen/python-is-cool
++ sundowndev/hacker-roadmap
++ Hack-with-Github/Awesome-Hacking
++ gram-ai/capsule-networks
++ tristandeleu/pytorch-meta
++ kon9chunkit/GitHub-Chinese-Top-Charts
++ ChineseGLUE/ChineseGLUE
++ facebookresearch/detectron2
++ k-r-allen/imp
++ graykode/nlp-roadmap
++ facebookresearch/Detectron
++ huan/tensorflow-handbook-tpu
