@@ -1,326 +1,62 @@
-# VDeamoV_Stars
-<!-- vim-markdown-toc GFM -->
+## Install
+安装到 python 库中，并会自动生成可执行文件 `sc`。
 
-* [Intro](#intro)
-* [Futrue Feature](#futrue-feature)
-* [How to Use the Script](#how-to-use-the-script)
-* [ResearchCollection](#researchcollection)
-  * [TransferLearning](#transferlearning)
-    * [Survey](#survey)
-  * [ObjectDetection](#objectdetection)
-    * [Survey](#survey-1)
-  * [Few-shot Learning](#few-shot-learning)
-    * [Survey](#survey-2)
-    * [Models](#models)
-  * [AdversarialNetworks](#adversarialnetworks)
-    * [Survey](#survey-3)
-    * [Models](#models-1)
-  * [Dataset](#dataset)
-  * [Image Segementation](#image-segementation)
-    * [Models](#models-2)
-  * [NAS](#nas)
-    * [Models](#models-3)
-  * [Knowledge Embedding](#knowledge-embedding)
-    * [Survey](#survey-4)
-  * [ObjectDetection](#objectdetection-1)
-    * [Models](#models-4)
-  * [Others](#others)
-    * [Survey](#survey-5)
-    * [Models](#models-5)
-  * [Conference](#conference)
-* [Tutorial](#tutorial)
-  * [Vim](#vim)
-  * [Alogrithm](#alogrithm)
-  * [Tools](#tools)
-  * [MachineLearning/DeepLearning](#machinelearningdeeplearning)
-  * [Program Language](#program-language)
-  * [Others](#others-1)
-* [Toolkits](#toolkits)
-  * [MyVIM](#myvim)
-  * [ToolsCollection](#toolscollection)
-  * [Vim-Plugin](#vim-plugin)
-  * [LaunchBar-Plugin](#launchbar-plugin)
-  * [Linux & MacOS](#linux--macos)
-    * [OnlyMac](#onlymac)
-  * [MachineLearning](#machinelearning)
-* [Friends's little tools](#friendss-little-tools)
-* [My little repo](#my-little-repo)
-* [Themes](#themes)
-* [Others](#others-2)
-* [RemainSorted](#remainsorted)
+```bash
+make install
+```
+## Usage
 
-<!-- vim-markdown-toc -->
-## Intro
-This repo is used to maintain my stars. Contain a script to automatically collect the unsorted repo to the README 
+```bash
+sc -id <github-id>
+```
 
-## Futrue Feature
-- [ ] automatically add repo with link
+结合 grep 使用
 
-## How to Use the Script
-1. Just Use the Sript
+```bash
+sc -d Duan-JM 2>&1 | grep -C 4 luyuhao
+```
 
-    ```python
-    python3 get_stars.py -u yourname -p your_readme_path
-    ```
-    Then it will store your unsorted Star Repo to the end of the file
-2. Sort your Repo
-    - Place your unsorted repo to the right place
-    - Make sure that your repo name have `+` before it.
+## NeedFix
 
-ResearchCollection
------------------
-### TransferLearning
-#### Survey
-+ jindongwang/transferlearning
-### ObjectDetection
-#### Survey
-+ hoya012/deep_learning_object_detection
+Make install 完成之后，可执行文件 `sc` 的输出路径需要进行手动的调整。
 
-### Few-shot Learning
-#### Survey
-+ FoxerLee/One-Zero-shot-learning-Papers
-#### Models
-+ floodsung/LearningToCompare_FSL
-+ wyharveychen/CloserLookFewShot
-+ cogentlabs/apl
+如下为我的安装的 log 输出：
 
-### AdversarialNetworks
-#### Survey
-+ zhangqianhui/AdversarialNetsPapers
-#### Models
-+ hindupuravinash/the-gan-zoo
+```bash
+Installing sc script to /usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/bin
 
-### Dataset
-+ samorr/Animals-with-Attributes
-+ brendenlake/omniglot
+Installed /usr/local/lib/python3.8/site-packages/stars_collecter-0.1.dev0-py3.8.egg
+Processing dependencies for stars-collecter==0.1.dev0
+Searching for requests==2.24.0
+Best match: requests 2.24.0
+Adding requests 2.24.0 to easy-install.pth file
 
-### Image Segementation
-#### Models
-+ foamliu/Deep-Image-Matting
+Using /usr/local/lib/python3.8/site-packages
+Searching for urllib3==1.25.10
+Best match: urllib3 1.25.10
+Adding urllib3 1.25.10 to easy-install.pth file
 
-### NAS
-#### Models
-+ dragen1860/DARTS-PyTorch
+Using /usr/local/lib/python3.8/site-packages
+Searching for idna==2.10
+Best match: idna 2.10
+Adding idna 2.10 to easy-install.pth file
 
-### Knowledge Embedding
-#### Survey
-+ thunlp/KRLPapers
+Using /usr/local/lib/python3.8/site-packages
+Searching for chardet==3.0.4
+Best match: chardet 3.0.4
+Adding chardet 3.0.4 to easy-install.pth file
+Installing chardetect script to /usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/bin
 
-### ObjectDetection
-#### Models
-+ matterport/Mask_RCNN
+Using /usr/local/lib/python3.8/site-packages
+Searching for certifi==2020.6.20
+Best match: certifi 2020.6.20
+Adding certifi 2020.6.20 to easy-install.pth file
 
-### Others
-#### Survey
-+ josephmisiti/awesome-machine-learning
-+ wwxFromTju/awesome-reinforcement-learning-zh
-+ thunlp/RCPapers
-+ terryum/awesome-deep-learning-papers
-+ sekwiatkowski/awesome-capsule-networks
-#### Models
-+ XifengGuo/CapsNet-Keras
+Using /usr/local/lib/python3.8/site-packages
+Finished processing dependencies for stars-collecter==0.1.dev0
+```
 
-### Conference
-+ extreme-assistant/cvpr2019
-
-
-Tutorial
------
-### Vim
-+ wsdjeg/vim-plugin-dev-guide
-+ mhinz/vim-galore
-+ wsdjeg/vim-galore-zh_cn
-
-### Alogrithm
-+ NAU-ACM/ACM-ICPC-Preparation
-+ TheAlgorithms/Python
-+ algorithm-visualizer/algorithm-visualizer
-+ apachecn/awesome-algorithm
-+ MisterBooo/LeetCodeAnimation
-+ jwasham/coding-interview-university
-+ gaochengcheng/LeetCode
-
-### Tools
-+ dragen1860/TensorFlow2.0Tutorials
-+ machinelearningmindset/TensorFlow-Course
-+ apachecn/git-doc-zh
-
-### MachineLearning/DeepLearning
-+ dragen1860/DeepLearningTutorials
-+ nndl/nndl.github.io
-
-### Program Language
-+ leisurelicht/wtfpython-cn
-+ kenwoodjw/python_interview_question
-+ gto76/python-cheatsheet
-+ Snailclimb/JavaGuide
-+ jackfrued/Python-100-Days
-+ soapyigu/Swift-30-Projects
-+ avelino/awesome-go
-+ chai2010/advanced-go-programming-book
-
-### Others
-+ ocean1/awesome-thesis
-+ jiangsir404/Audit-Learning
-+ Morde-kaiser/LearningNotes
-+ ossu/computer-science
-+ cfenollosa/os-tutorial
-+ Micropoor/Micro8
-+ Ridter/Intranet_Penetration_Tips
-+ fengdu78/lihang-code
-+ CyC2018/CS-Notes
-+ tensorflow/magenta
-+ chaozh/awesome-blockchain-cn
-
-Toolkits
---------
-### MyVIM
-+ VDeamoV/VDeamoV-vimrc
-
-### ToolsCollection
-+ jhuangtw-dev/xg2xg
-
-### Vim-Plugin
-+ mattn/webapi-vim
-+ mattn/gist-vim
-+ itchyny/lightline.vim
-+ vim-china/hello-vim
-+ terryma/vim-multiple-cursors
-+ artur-shaik/vim-javacomplete2
-+ honza/vim-snippets
-+ mhinz/vim-startify
-
-### LaunchBar-Plugin
-+ hlissner/lb6-actions
-+ Tokanhaku/Launchbar_Actions
-
-### Linux & MacOS
-+ hardikvasa/google-images-download
-+ Syllo/nvtop
-+ Xfennec/progress
-+ aria2/aria2
-+ txthinking/brook
-+ cheat/cheat
-+ littlecodersh/ItChat
-+ skygragon/leetcode-cli
-+ petronny/pinyin-completion
-#### OnlyMac
-+ zegervdv/homebrew-zathura
-+ koekeishiya/chunkwm
-+ koekeishiya/skhd
-+ iina/iina
-+ TKkk-iOSer/WeChatPlugin-MacOS
-+ TKkk-iOSer/TKTweakDemo
-+ TKkk-iOSer/QQPlugin-macOS
-+ jjgod/mac-dictionary-kit
-+ jaywcjlove/awesome-mac
-
-### MachineLearning
-+ yzhao062/pyod
-+ rusty1s/pytorch_geometric
-+ jantic/DeOldify
-+ taizan/PaintsChainer
-+ tensorspace-team/tensorspace
-+ lanpa/tensorboardX
-+ facebookresearch/visdom
-
-Friends's little tools
-------------
-
-My little repo
-------------
-+ awesomeAJF/awesomeAJF.github.io
-+ awesomeAJF/awesome-top-papers
-
-Themes
------
-+ iplaces/astro-zsh-theme
-+ mbadolato/iTerm2-Color-Schemes
-
-Others
------
-+ 996icu/996.ICU
-+ formulahendry/955.WLB
-+ shengxinjing/programmer-job-blacklist
-+ programthink/opensource
-+ Anyway-Design/Anyway.Post
-
-RemainSorted
------------
-+ soimort/translate-shell
-+ dmlc/gluon-cv
-+ renmengye/few-shot-ssl-public
-+ snowkylin/tensorflow-handbook
-+ unknwon/the-way-to-go_ZH_CN
-+ yanwii/msxiaoiceapi
-+ vietnguyen91/Super-mario-bros-A3C-pytorch
-+ microsoft/onnxruntime
-+ microsoft/MMdnn
-+ BUPT/magic-mirror
-+ Po-Hsun-Su/pytorch-ssim
-+ lukemelas/EfficientNet-PyTorch
-+ hubutui/DiceLoss-PyTorch
-+ zxqfl/TabNine
-+ maxbbraun/trump2cash
-+ Chen-Dixi/SemanticSegmentation
-+ albu/albumentations
-+ kefranabg/readme-md-generator
-+ EvelynFan/AWESOME-FER
-+ flipxfx/sVim
-+ sksq96/pytorch-summary
-+ zuoxiang95/BCRNN
-+ sivel/speedtest-cli
-+ al0ne/Vxscan
-+ tpope/vim-surround
-+ tpope/tpope
-+ google/vim-searchindex
-+ daipeihust/im-select
-+ goreliu/zshguide
-+ sergeywong/cp-vton
-+ ly015/intrinsic_flow
-+ pedrommcarrasco/Brooklyn
-+ ctgk/PRML
-+ tensorflow/tensorflow
-+ michamos/vim-arxivist
-+ openai/mujoco-py
-+ openai/multi-agent-emergence-environments
-+ openai/mujoco-worldgen
-+ vim-china/vimrc
-+ liuchengxu/vista.vim
-+ kkroening/ffmpeg-python
-+ syl20bnr/spacemacs
-+ hyiltiz/vim-plugins-profile
-+ microsoft/cascadia-code
-+ koekeishiya/yabai
-+ Sophia-11/Awesome-ICCV2019
-+ Duan-JM/awesome-papers-fewshot
-+ istarjun/TapNet
-+ LiyuanLucasLiu/RAdam
-+ WenbinLee/DN4
-+ khy0809/fewshot-egnn
-+ vietnguyen1991/Super-mario-bros-A3C-pytorch
-+ jason718/awesome-self-supervised-learning
-+ BrikerMan/Kashgari
-+ jofpin/trape
-+ Greenwolf/social_mapper
-+ voldikss/vim-translator
-+ CoinCheung/pytorch-loss
-+ ryanhanwu/How-To-Ask-Questions-The-Smart-Way
-+ YirongMao/softmax_variants
-+ jaraco/path
-+ vinta/awesome-python
-+ microsoft/ai-edu
-+ yuzhoujr/leetcode
-+ amix/vimrc
-+ chiphuyen/python-is-cool
-+ sundowndev/hacker-roadmap
-+ Hack-with-Github/Awesome-Hacking
-+ gram-ai/capsule-networks
-+ tristandeleu/pytorch-meta
-+ kon9chunkit/GitHub-Chinese-Top-Charts
-+ ChineseGLUE/ChineseGLUE
-+ facebookresearch/detectron2
-+ k-r-allen/imp
-+ graykode/nlp-roadmap
-+ facebookresearch/Detectron
-+ huan/tensorflow-handbook-tpu
+可以看到我的本地测试环境中可执行文件生成到
+`/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/bin`
+中，需要手动的把这个路径添加到 PATH 中，或者手动的把这个文件拷贝到 PATH
+的目录下也行。 目前还没有找到合适的解决方案。
