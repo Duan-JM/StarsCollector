@@ -11,8 +11,10 @@
 
 from .core import printResults
 
+
 def main():
     printResults()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
